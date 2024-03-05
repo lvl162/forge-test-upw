@@ -1,4 +1,5 @@
-@openzeppelin/=externals/@openzeppelin/contracts/
-@padi-dev-dangpm/=externals/@padi-dev-dangpm/ds-test/src/
-@uniswap/=externals/@uniswap/
-forge-std/=externals/forge-std/
+@openzeppelin/=./externals/@openzeppelin/
+@padi-dev-dangpm/=./externals/@padi-dev-dangpm/ds-test/src/
+@uniswap/=./externals/@uniswap/
+forge-std/=./externals/forge-std/
+ds-test/=./externals/@padi-dev-dangpm/ds-test/src

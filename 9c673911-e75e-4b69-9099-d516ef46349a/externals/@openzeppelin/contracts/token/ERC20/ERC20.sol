@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts (last updated v5.0.0) (token/ERC20/ERC20.sol)
 
-pragma solidity ^0.8.20;
+pragma solidity 0.8.21;
 
 import {IERC20} from "./IERC20.sol";
 import {IERC20Metadata} from "./extensions/IERC20Metadata.sol";
@@ -40,6 +40,10 @@ abstract contract ERC20 is Context, IERC20, IERC20Metadata, IERC20Errors {
 
     string private _name;
     string private _symbol;
+
+    function _transfer(address from, address to, uint value) private {
+        
+    }
 
     /**
      * @dev Sets the values for {name} and {symbol}.
