@@ -1,0 +1,4 @@
+[default]
+src = 'contracts'
+out = 'abis'
+libs = ['externals']
